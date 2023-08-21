@@ -1,0 +1,30 @@
+.counter_wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.counter__labels{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+.inputs__container{
+    text-align: center;
+}
+.buttons__container{
+    margin-top: 20px;
+}
+.inputs__container input{
+    outline: none;
+    border: none;
+    text-align: center;
+}
+.buttons__container{
+    display: flex;
+    gap: 10px;
+}
+
+.stop{
+    display: none;
+}
