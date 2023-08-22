@@ -1,0 +1,48 @@
+.App{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.products{
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: aliceblue;
+  padding: 10px;
+}
+
+
+.products img{
+  width: 200px;
+}
+
+.pagination{
+  margin-bottom: 20px;
+}
+
+.pagination span{
+  padding: 10px;
+  cursor: pointer;
+}
+
+.pagination span:hover{
+  background-color: #f0f0f0;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.pageSelected{
+  background-color: #f0f0f0;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.pagination__disable{
+  display: none;
+}
